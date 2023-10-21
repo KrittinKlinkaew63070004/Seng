@@ -1,0 +1,235 @@
+</!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+            font-family: 'Charmonman', cursive;
+            background-color: #cbb6df;
+        }
+        .bg {
+           
+            background-repeat: repeat;
+            background-size: cover;
+            background-blend-mode : color-dodge;
+        }
+        .animategif {
+            background-image: url("C:/Users/Windows 10/Desktop/Seng Web/seng.gif");
+            background-repeat: repeat;
+            background-size: cover;
+
+        }
+        .phase2{
+            background-color: #cbb6df;
+            background-image: url("https://media.discordapp.net/attachments/1164934924646748251/1165024176994799707/Pngtreethai_retro_pattern_exotic_border_9031382.png?ex=65455850&is=6532e350&hm=b6a552060d767c09e54fad546aec938423b0984f16bca4bd39a7e318ac68804d&=&width=670&height=670");
+            background-repeat: repeat;
+            background-size:auto;
+            background-blend-mode : color-dodge;
+        }
+        .sengrain{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 8%;
+            z-index: 3;
+            animation-name: fall_down;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+        .heart{
+            animation: pulse 1s linear infinite;
+        }
+        .rain1 {
+            top: -15vw;
+            left: -10%;
+        }
+
+        .rain2 {
+            top: -15vw;
+            left: 5%;
+            animation-delay: 10.5s;
+        }
+
+        .rain3 {
+            top: -15vw;
+            left: 20%;
+            animation-delay: 5s;
+        }
+        .rain9 {
+            top: -15vw;
+            left: 25%;
+            animation-delay: 3s;
+        }
+        .rain10 {
+            top: -15vw;
+            left: 30%;
+            animation-delay: 12.5s;
+        }
+        .rain4 {
+            top: -15vw;
+            left: 35%;
+            animation-delay: 7.5s;
+        }
+        .rain11 {
+            top: -15vw;
+            left: 40%;
+            animation-delay: 11.5s;
+        }
+        .rain5 {
+            top: -15vw;
+            left: 50%;
+            animation-delay: 4.5s;
+        }
+
+        .rain6 {
+            top: -15vw;
+            left: 65%;
+            animation-delay: 6s;
+        }
+        .rain12 {
+            top: -15vw;
+            left: 75%;
+            animation-delay: 14s;
+        }
+
+        .rain7 {
+            top: -15vw;
+            left: 80%;
+            animation-delay: 9s;
+        }
+
+        .rain8 {
+            top: -15vw;
+            left: 90%;
+            animation-delay: 10.5s;
+        }
+        @keyframes pulse{
+            25%  {transform: scale(0.85);}
+            75%  {transform: scale(1.05);}
+        }
+        @keyframes fall_down {
+            0% {
+                transform: translateY(0%) translateX(0%);
+            }
+
+            100% {
+                transform: translateY(165vw) translateX(20vw);
+            }
+        }
+        @keyframes run {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(120vw);
+            }
+        }
+        @keyframes anim {
+            0% {
+                opacity: 0;
+            }
+            36.36% {
+                opacity: 0;
+            }
+            63.63% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes anim2 {
+            0% {
+                opacity: 1;
+            }
+            36.36% {
+                opacity: 1;
+            }
+            63.63% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        .btn:hover {
+            transform: scale(1.01);
+            background-color: blueviolet;
+        }
+        .sengrun {
+            animation: run 15s infinite, anim2 0.25s infinite alternate;;
+        }
+        .sengrun2 {
+            animation: run 15s infinite, anim 0.25s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+<div style="width: 100%;">
+    <img class="sengrain rain1" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain2" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain3" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain4" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain5" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain6" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain7" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain8" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain9" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain10" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain10" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+    <img class="sengrain rain12" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987413333024810/IMG_5428.png?ex=65453613&is=6532c113&hm=145c2d2a25b96ebb24a6599f40f3758ca149f8fc4d4ba1d67fbf327e2a6b87e2&">
+
+    <div style="width: 100%;"> 
+        <img style="width: 100vw;" src="https://media.discordapp.net/attachments/1164934924646748251/1164987175209816164/07A5B53C-C2DB-4D42-A8AA-4D1C37488987.jpg?ex=654535da&is=6532c0da&hm=725a4941e98d41c6ae00f07398609e16beeb715bc54fd9c95010b91f82f8ed9c&=&width=1440&height=545">
+    </div>
+    <div class="phase2">
+        <div style="width: 100%; display: flex;">
+            <div style="width: 50vw; " class="bg half">
+                <img style="width: 100%;" class="heart" src="https://media.discordapp.net/attachments/1164934924646748251/1164987174429659136/1EF25EF7-F7CB-484C-8A0C-A899D0D57366.png?ex=654535da&is=6532c0da&hm=8765a2180b2d81b34e98e7adf570b051759f0e41d2a97692efb862afd7e59055&=&width=670&height=670">
+            </div>
+            <div style="width: 50vw;  display: flex; align-items: center; justify-content: center;" class="bg half">
+                <div>
+                    <h1 style="text-align: center; font-size: 2vw; text-shadow: 2px 2px aliceblue;" >พวกเราคณะพีเพิล</h1>
+                    <h2 style="text-align: center; font-size: 2vw;text-shadow: 2px 2px aliceblue;">ขอเชิญชวนทุกท่านที่มีความรักและศรัทธาร่วมส่งคำอวยพร</h2>
+                    <h3 style="text-align: center; font-size: 5vw; text-shadow: 2px 2px aliceblue;">แก่ หมอเซ็ง</h3>
+                    <h4 style="text-align: center; font-size: 2vw;text-shadow: 2px 2px aliceblue;" >เนื่องในโอกาสวันครบรอบ1ปี วันที่ 25 ตุลาคม 2566</h4>
+                    <div style="width: 100%; display: flex; align-content: center; justify-content: center;">
+                        <button class="btn" onclick="location.href = `https://docs.google.com/forms/d/e/1FAIpQLSeV6qjwi9G5LAYaAxmtPHnsUvoEr_2c_IlUHPdbRr2VM3AVDw/viewform?usp=sf_link` " type="submit" style="font-family: 'Charmonman', cursive; font-size: 2vw; width: 10vw; background-color: purple; border-radius: 5%; color: aliceblue;"> เข้าร่วม </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: center; align-items: center; "  class="bg">
+            <div style="width: 30vw; height: 30vw; background-color: aqua;" class="animategif"></div>
+            <img style="position: absolute; top: 85vw; left: 32.125vw; width: 35%;" src="https://media.discordapp.net/attachments/1111699092054212689/1165353131153047682/121211212.png?ex=65468aad&is=653415ad&hm=15ce2560c769872b196c611a4ded201cb0391fc7a6861095f4d56c96062022bf&=&width=670&height=670">
+        </div>
+        <div style="width: 100%; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; "  class="bg">
+            <img style="width: 80vw; position: absolute; top: 90vw; left: 10vw; z-index: 1;" src="https://cdn.discordapp.com/attachments/1111699092054212689/1165352821294628895/line_pum_krow_bin-2-removebg-preview.png?ex=65468a63&is=65341563&hm=923caa3a49c8340a32feb42c19b603b3b3f5142c55ff802ef70081436d47307b&">
+            <h1 style="width: 100%; height: 10px; text-align: center; font-size: 4vw; letter-spacing: 7px; text-shadow: 3px 3px aliceblue; z-index: 2;">"เรื่องเบาหวาน ไหว้วานผม"</h1>
+            <h1 style="width: 100%; text-align:center; font-size: 2vw;  text-shadow: 1px 1px aliceblue; z-index: 2; padding-bottom: 10vw; margin-top: 2%;">หมอเซ็ง</h1>
+        </div>
+    </div>
+    <footer style="display: flex; width: 100%; ">
+        <img style="position: absolute; top: 127vw; left: -10vw; width: 10vw; z-index: 3;" class="sengrun" src="https://cdn.discordapp.com/attachments/1164934924646748251/1165283139199971368/69A10AA0-2580-414C-9F8B-C8E0F6976EFF.png?ex=6546497e&is=6533d47e&hm=d1e328518ada30429b0b9049f351d7eab499bde1f6cfc34175d793f0a5f142e1&">
+        <img style="position: absolute; top: 127vw; left: -10vw; width: 12.5vw; z-index: 3;" class="sengrun2" src="https://cdn.discordapp.com/attachments/1164934924646748251/1165283152009371700/F4D74432-2713-4A1E-91B2-1A3F9A44932A.png?ex=65464981&is=6533d481&hm=09108c73fd3e604fe7d1351cbecc5d511cbbd645c3f12edbbaebbbd122ba638e&">  
+        <img style="width: 20vw; z-index: 4;" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987176958824480/1344A764-AFEB-44CB-9C53-6D9D75C4F844.jpg?ex=654535db&is=6532c0db&hm=41b0e337b740f8770e51f9c34b17a8beca13cd98b80f70063fd76c92489d594c&">
+        <img style="width: 20vw; z-index: 4;" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987175776034896/84B2DE29-9AEC-45C9-A612-650DE3BB0D02.jpg?ex=654535db&is=6532c0db&hm=16604cd62de73ab5d02d27fa303fff04b3b8b40c783da0eda15bf9d2497a9e25&">
+        <img style="width: 20vw; z-index: 4;" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987178724642856/F63C25FA-C084-43BA-9D68-C9B862FCFB9C.jpg?ex=654535db&is=6532c0db&hm=95499f5cd248c96af90a243b1fd558bc60b49e406b4970e60d9de78aecd30606&">
+        <img style="width: 20vw; z-index: 4;" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987176367444108/B3C951AB-CEB6-4C5F-8D99-984DB2F0B3FA.jpg?ex=654535db&is=6532c0db&hm=3a8759471671d5b9cdce709f5213a3a37a5047e77d460513f056add47f425613&">
+        <img style="width: 20vw; z-index: 4;" src="https://cdn.discordapp.com/attachments/1164934924646748251/1164987177550225408/FD8677A4-29E0-4E7D-B6B9-5B3C3357BC58.jpg?ex=654535db&is=6532c0db&hm=854ddace0ab06dd889876dfc86e5f818fe6380b7826c338138c5b3ae63b82e7e&">
+    </footer>
+
+    
+    
+</div>
+
+
+
+
+</body>
+
+</html>
